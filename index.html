@@ -4,36 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Monday 13:00, Cloudy
-          <br />
-          Humidity: 55%, Wind: 5.15km/h
-        </p>
-      </div>
-      <div>🌤️ 15°C</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/elm0623" target="_blank">Lalia Mateo,</a> is
-      <a href="https://github.com/elm0623/Finalweather" target="_blank"
-        >open-sourced on Github</a
-      >
-      and
-      <a href="https://main--weather-climateapp.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Monday 13:00, Cloudy
+            <br />
+            Humidity: 55%, Wind: 5.15km/h
+          </p>
+        </div>
+        <div>🌤️ 15°C</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/elm0623" target="_blank">Lalia Mateo,</a> is
+        <a href="https://github.com/elm0623/Finalweather" target="_blank"
+          >open-sourced on Github</a
+        >
+        and
+        <a href="https://main--weather-climateapp.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
